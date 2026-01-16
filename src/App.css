@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.app-logo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  border-radius: 6px; /* optional – matches your rounded style */
+}
