@@ -16,6 +16,7 @@ export const NAV_ITEMS = [
     children: [
       { key: "dashboard1", label: "Success Queries", to: "/dashboards/1" },
       { key: "dashboard2", label: "Failed Queries", to: "/dashboards/2" },
+      { key: "dashboard3", label: "Compose Dashboard", to: "/dashboards/3" },
     ],
   },
   {
@@ -24,6 +25,14 @@ export const NAV_ITEMS = [
     icon: "bi-people",
     children: [
       { key: "Custom Data", label: "Custom Data", to: "/advanced/custom-data" },
+    ],
+  },
+  {
+    key: "GenerativeAI",
+    label: "GenerativeAI",
+    icon: "bi-people",
+    children: [
+      { key: "Chat_bot", label: "Chatbot", to: "/GenerativeAI/Chat_bot" },
     ],
   },
 ];
